@@ -143,7 +143,7 @@ Material:
     - Frenel: 0
     - Vector1_195E5D77: 4.18
     - Vector1_5599F0EB: 10.88
-    - Vector1_5E4C4145: 9.2
+    - Vector1_5E4C4145: 9.64
     - Vector1_84B962CB: 2.66
     - Vector1_C4935831: 12.8
     - Vector1_FC90F919: 13.55
@@ -221,6 +221,7 @@ Material:
     - _LinkDetailsWithBase: 1
     - _MaterialID: 1
     - _Metallic: 0
+    - _Metalness: 1
     - _NormalMapSpace: 0
     - _NormalScale: 1
     - _OpaqueCullMode: 2
@@ -236,7 +237,7 @@ Material:
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
     - _SSRefractionProjectionModel: 0
-    - _Smoothness: 0.5
+    - _Smoothness: 1
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
     - _SpecularAAScreenSpaceVariance: 0.1
@@ -279,9 +280,9 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - AngleOffset: {r: 5, g: 5, b: 0, a: 0}
-    - Color_AEF888F8: {r: 0, g: 0.09411765, b: 0.32156864, a: 0}
-    - Color_B48F8FA1: {r: 0.2784314, g: 0.35686275, b: 0.5568628, a: 0}
-    - Color_D07EDDD8: {r: 0.5764706, g: 0.5764706, b: 0.5764706, a: 0}
+    - Color_AEF888F8: {r: 0, g: 0.05246203, b: 0.1792453, a: 0}
+    - Color_B48F8FA1: {r: 0, g: 0.40656003, b: 0.7924528, a: 0}
+    - Color_D07EDDD8: {r: 0, g: 0, b: 0, a: 0}
     - RandomSeed: {r: 184.8, g: 1, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}

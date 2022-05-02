@@ -66,6 +66,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 1
+--- !u!114 &-9197158082718695689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CycleanerBase/occlusion
+  m_EditorClassIdentifier: 
+  Name: occlusion
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &-9174022865020717146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4554,6 +4576,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-5970096660903864775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CycleanerBase/occlusion
+  m_EditorClassIdentifier: 
+  Name: occlusion
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-5957188792945326631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7481,6 +7525,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 1
+--- !u!114 &-4134694132171128237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CycleanerBase/occlusion
+  m_EditorClassIdentifier: 
+  Name: occlusion
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-4101873529995763240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9877,7 +9943,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 8856910492840430541}
+  - {fileID: -5970096660903864775}
   MinDistance: 0
   MaxDistance: 0
   Length: 0
@@ -10541,6 +10607,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-1879839814481323995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CycleanerBase/occlusion
+  m_EditorClassIdentifier: 
+  Name: occlusion
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-1856756443617916004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11832,7 +11920,7 @@ MonoBehaviour:
   Path: FMODAssets/fmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637871074799011144
+  lastModified: 637683063918334450
   FileSizes:
   - Name: Desktop
     Value: 802
@@ -13199,7 +13287,7 @@ MonoBehaviour:
   - {fileID: 6429966733354216020}
   StringsBanks:
   - {fileID: -840546899023538134}
-  stringsBankWriteTime: 637871074799011144
+  stringsBankWriteTime: 637683063918334450
   cacheVersion: 8
 --- !u!114 &6316173151279714
 MonoBehaviour:
@@ -22917,7 +23005,7 @@ MonoBehaviour:
   Path: FMODAssets/fmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637871074799011144
+  lastModified: 637683063918314512
   FileSizes:
   - Name: Desktop
     Value: 1174080
@@ -26177,7 +26265,7 @@ MonoBehaviour:
     data2: 0
   Type: 0
   IsGlobal: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &8887845720018415600
 MonoBehaviour:
   m_ObjectHideFlags: 0

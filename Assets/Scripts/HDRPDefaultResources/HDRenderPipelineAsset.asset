@@ -15,9 +15,9 @@ MonoBehaviour:
   m_RenderPipelineSettings:
     supportShadowMask: 1
     supportSSR: 1
-    supportSSRTransparent: 0
-    supportSSAO: 0
-    supportSSGI: 0
+    supportSSRTransparent: 1
+    supportSSAO: 1
+    supportSSGI: 1
     supportSubsurfaceScattering: 1
     sssSampleBudget:
       m_Values: 140000002800000050000000
