@@ -1,0 +1,12 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/CyberoProbation/MachineRoomV2.unity
+    guid: e6870b50cf7129f478d3eb1759baa6c3
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 8c54b9a03b4b2db40a25ba5cbc60172e, type: 2}
