@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1631293221}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0, y: -0.002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -44,9 +44,9 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.20392159, g: 0.5372549, b: 0.98823535, a: 1}
-  m_Intensity: 47.746483
-  m_Range: 3
+  m_Color: {r: 0.20392156, g: 0.6156684, b: 0.9882353, a: 1}
+  m_Intensity: 5.979397
+  m_Range: 0.93
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -107,14 +107,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 600
+  m_Intensity: 5.58
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
   m_SpotIESCutoffPercent: 100
   m_LightDimmer: 1
   m_VolumetricDimmer: 1
-  m_LightUnit: 0
+  m_LightUnit: 4
   m_FadeDistance: 10000
   m_VolumetricFadeDistance: 10000
   m_AffectDiffuse: 1
@@ -159,7 +159,7 @@ MonoBehaviour:
   m_EvsmBlurPasses: 0
   m_LightlayersMask: 1
   m_LinkShadowLayers: 1
-  m_ShadowNearPlane: 0.2
+  m_ShadowNearPlane: 0.1
   m_BlockerSampleCount: 24
   m_FilterSampleCount: 16
   m_MinFilterSize: 0.1
@@ -493,7 +493,7 @@ Transform:
   m_GameObject: {fileID: 1069357304030168127}
   m_LocalRotation: {x: -0.7069834, y: 0, z: 0, w: 0.7072302}
   m_LocalPosition: {x: -0.86757416, y: -0.25191933, z: 0.46727392}
-  m_LocalScale: {x: 100.000046, y: 100.000046, z: 100.00004}
+  m_LocalScale: {x: 107, y: 107, z: 107}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 557471779590427899}
@@ -3416,6 +3416,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3582677616717485185}
     m_Modifications:
+    - target: {fileID: 7051641569087485275, guid: 1d9e5ee351f589f498c0962149293803, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6866294
+      objectReference: {fileID: 0}
+    - target: {fileID: 7051641569087485275, guid: 1d9e5ee351f589f498c0962149293803, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.16893788
+      objectReference: {fileID: 0}
+    - target: {fileID: 7051641569087485275, guid: 1d9e5ee351f589f498c0962149293803, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.1689378
+      objectReference: {fileID: 0}
+    - target: {fileID: 7051641569087485275, guid: 1d9e5ee351f589f498c0962149293803, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.6866296
+      objectReference: {fileID: 0}
+    - target: {fileID: 7051641569087485275, guid: 1d9e5ee351f589f498c0962149293803, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 27.645
+      objectReference: {fileID: 0}
     - target: {fileID: 7374309968594534525, guid: 1d9e5ee351f589f498c0962149293803, type: 3}
       propertyPath: m_RootOrder
       value: 25

@@ -5,6 +5,7 @@ using UnityEngine;
 
 namespace Lights
 {
+    [ExecuteInEditMode]
     public class AnimatedLightWithMeshBase : MonoBehaviour
     {
         public Renderer emissiveObject;
@@ -23,6 +24,7 @@ namespace Lights
         {
             if (!_isAnimationPlaying && !_isAnimationStopped)
             {
+                Debug.Log("START ANIM");
                 StartCoroutine(StartAnimation());
             }
         }

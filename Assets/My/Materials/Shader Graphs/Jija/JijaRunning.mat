@@ -24,7 +24,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: JijaRunning
-  m_Shader: {fileID: -6465566751694194690, guid: ac25b154ab401a5479342c0935c283aa, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 9f9db2f38ec312842b951f7cc5ef4ab6, type: 3}
   m_ShaderKeywords: _ALPHATEST_ON _DISABLE_DECALS _DISABLE_SSR_TRANSPARENT
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -140,9 +140,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - Vector1_195E5D77: 0.9
+    - Vector1_195E5D77: 5.2
     - Vector1_5599F0EB: 5
-    - Vector1_5E4C4145: 8.32
+    - Vector1_5E4C4145: 8.07
     - Vector1_83A53FA0: 1.09
     - Vector1_84B962CB: 1
     - Vector1_C4935831: 6.5
@@ -162,8 +162,10 @@ Material:
     - _AlphaSrcBlend: 1
     - _AlphaToMask: 0
     - _AlphaToMaskInspectorValue: 0
+    - _Angle_offset_speed: 2
     - _Anisotropy: 0
     - _BlendMode: 0
+    - _Cell_density: 5
     - _CoatMask: 0
     - _ConservativeDepthOffsetEnable: 0
     - _CullMode: 2
@@ -196,6 +198,7 @@ Material:
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 2
     - _DstBlend: 0
+    - _Emission_intencity_clamp_value: 10.63
     - _EmissiveColorMode: 1
     - _EmissiveExposureWeight: 1
     - _EmissiveIntensity: 1
@@ -220,6 +223,8 @@ Material:
     - _LinkDetailsWithBase: 1
     - _MaterialID: 1
     - _Metallic: 0
+    - _Metalness: 0
+    - _Noise_scale: 10
     - _NormalMapSpace: 0
     - _NormalScale: 1
     - _OpaqueCullMode: 2
@@ -271,6 +276,7 @@ Material:
     - _UVEmissive: 0
     - _UseEmissiveIntensity: 0
     - _UseShadowThreshold: 0
+    - _Use_radial_shear: 0
     - _ZTestDepthEqualForOpaque: 3
     - _ZTestGBuffer: 3
     - _ZTestModeDistortion: 4
@@ -278,8 +284,8 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - Color_AEF888F8: {r: 0, g: 0.093050815, b: 0.3207547, a: 0}
-    - Color_B48F8FA1: {r: 0.2765515, g: 0.35756636, b: 0.5566038, a: 0}
-    - Color_D07EDDD8: {r: 0.5754717, g: 0.5754717, b: 0.5754717, a: 0}
+    - Color_B48F8FA1: {r: 0, g: 0.5368969, b: 1, a: 1}
+    - Color_D07EDDD8: {r: 0, g: 0, b: 0, a: 1}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
@@ -290,6 +296,8 @@ Material:
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
+    - _Move_speed: {r: 0, g: 0.3, b: 0, a: 0}
+    - _Multiply_color: {r: 0, g: 0.5372549, b: 1, a: 1}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
     - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _TransmittanceColor: {r: 1, g: 1, b: 1, a: 1}

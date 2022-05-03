@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using MisterGames.Common.Routines;
 using UnityEngine;
 using UnityEngine.PlayerLoop;
 using Random = UnityEngine.Random;
@@ -24,17 +25,21 @@ namespace Lights
         public float maxDelayBase;
     }
 
+    [ExecuteInEditMode]
     public class WavyLight : AnimatedLightWithMeshBase
     {
         public AnimationCurve curve;
         public Params animationConfig;
+        public TimeDomain Domain;
 
         public override IEnumerator Animate()
         {
+            Debug.Log("ANIMATE");
             var timer = 0f;
             var maxIntensity = GetRandomMaxIntensity();
             var maxEmissionIntensity = GetRandomMaxEmissionIntensity();
             var time = GetRandomAnimationTime() / Multiplier;
+            Debug.Log(time);
 
             while (timer < time)
             {
@@ -47,6 +52,7 @@ namespace Lights
                     emissiveObject.material.SetFloat("EmissionIntensityOverride", emission);
                 }
 
+                Debug.Log(timer);
                 timer += Time.deltaTime;
                 yield return new WaitForSeconds(Time.deltaTime);
             }
