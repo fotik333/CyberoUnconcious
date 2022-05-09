@@ -49,7 +49,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4986068235797509357, guid: 96144da37ee98cf4889d46d430fcd1b0, type: 3}
       propertyPath: m_Name
-      value: Ceiling Light_Warm Variant (3)
+      value: Ceiling Light_Warm Variant
       objectReference: {fileID: 0}
     - target: {fileID: 6952223962617460924, guid: 96144da37ee98cf4889d46d430fcd1b0, type: 3}
       propertyPath: m_RootOrder

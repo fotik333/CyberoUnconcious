@@ -37,7 +37,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 58e95ee5214d260419ee04e5685a303e, type: 2}
     - target: {fileID: 1193137677817777754, guid: 4139c6e155a67104cb506c1a689d498d, type: 3}
       propertyPath: m_Name
-      value: Small_lamp_red
+      value: Small_lamp_red Variant
       objectReference: {fileID: 0}
     - target: {fileID: 1193137677817777758, guid: 4139c6e155a67104cb506c1a689d498d, type: 3}
       propertyPath: m_RootOrder
